@@ -1,0 +1,14 @@
+div{
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(94, 90, 90);
+}
+ul.mainmenu .menu{
+     display: none; 
+}
+ul.mainmenu li:hover .menu{
+     display: block; 
+}
+.style{
+    list-style-type: none;
+}

@@ -1,0 +1,13 @@
+div{
+    padding: 10px;
+    width: 300px;
+    background-color: azure;
+    font-size: larger;
+    font-weight: 300;
+}
+li{
+    list-style-type: circle;
+}
+li:hover{
+    background-color: red;
+}

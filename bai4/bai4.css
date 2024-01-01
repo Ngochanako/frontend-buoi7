@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.body1{
+    width: 250px;
+    background-color: rgb(234, 224, 224);
+
+}
+.container{
+ padding: 20px;  
+    box-shadow: 10px 10px 10px rgb(168, 166, 163) inset;
+}
+img{
+    width: 200px;
+    height: 250px;
+    
+}
+.text{
+    margin-top: 20px;
+}
