@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100px;
+  width: 600px;
+  background-color: red;
+}
+
+.headbar {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  color: greenyellow;
+  padding: 15px;
+  animation: fadeOut 5s linear infinite;
+}
+
+@keyframes fadeOut {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(500px);
+  }
+}
